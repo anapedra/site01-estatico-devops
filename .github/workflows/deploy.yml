@@ -21,4 +21,5 @@ jobs:
           aws-region: us-east-1  # Altere para a região do seu bucket, se necessário
 
       - name: Fazer deploy para o S3
-        run: aws s3 sync ./site s3://meu-site-estatico-bucket --delete
+        run: aws s3 sync ./site s3://meu-site-devana --delete
+
